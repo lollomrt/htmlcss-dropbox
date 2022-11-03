@@ -23,6 +23,11 @@ h3 {
     font-weight: 900; 
 }
 
+h4 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
 p {
     font-size: 16px;
 }
@@ -57,6 +62,11 @@ header {
 main {
     padding-top: 70px;
     width: 100%;
+}
+
+footer {
+    background: #000;
+    color: #fff;
 }
 
 .row {
@@ -96,6 +106,10 @@ main {
 
 .col-100 {
     width: 100%;
+}
+
+.col-footer {
+    width: calc(100% / 5 - 20px);
 }
 
 .min-height-950 {
@@ -176,6 +190,10 @@ btn-white {
 
 .padding-bottom-30 {
     padding-bottom: 30px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
 }
 
 /* Header */
@@ -334,3 +352,33 @@ label {
     padding: 30px 30px 30px 0;
 }
 
+.contenuto-navigazione {
+    padding: 80px 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
+footer hr {
+    width: 10%;
+}
+
+.translator {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    color: #999999;
+}
+
+.translator p {
+    padding: 0 10px;
+}
+
+.translator i {
+    font-size: 12px;
+}
