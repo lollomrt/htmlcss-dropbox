@@ -1,0 +1,84 @@
+/* Main */
+
+.jumbotron-i {
+    background-color: #000;
+}
+
+.jumbotron-i img {
+    height: 100%;
+}
+
+jumbotron-i .jumbo-image {
+    height: 100%;
+}
+
+.jumbotron-i .jumbo-copy {
+    color: #fff;
+}
+
+.cards-i {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-card-i {
+    width: 21%;
+    margin: 40px 0;
+}
+
+.cards-i img {
+    width: 30%;
+    height: 100px;
+}
+
+.cards-i p {
+    min-height: 45%;
+}
+
+.container-right {
+    width: 80%;
+    margin: 0 0 0 auto;
+}
+
+.contenitore-foto img {
+    fill: cover;
+}
+
+.black {
+    background-color: #1e1919;
+    color: #fff;
+}
+
+.white {
+    background-color: #f7f5f2;
+    color: #000;
+}
+
+.brown {
+    background-color: #1e1919;
+    color: #fff;
+}
+
+.gray {
+    background-color: #f5f5f5;
+}
+
+.contenuto-brown {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contenuto-brown h2 {
+    width: 60%;
+    
+}
+
+.contenuto-brown span {
+    width: 30%;
+} 
+
+.contenuto-brown .btn {
+    width: 100%;
+}
