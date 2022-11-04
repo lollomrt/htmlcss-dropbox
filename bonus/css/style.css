@@ -266,6 +266,12 @@ header li {
     line-height: 0px;
 }
 
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+}
+
 /* Main */
 
 .jumbotron {

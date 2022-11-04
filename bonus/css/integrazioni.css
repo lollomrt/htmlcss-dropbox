@@ -41,8 +41,13 @@ jumbotron-i .jumbo-image {
     margin: 0 0 0 auto;
 }
 
+.container-left{
+    width: 80%;
+}
+
 .contenitore-foto img {
     fill: cover;
+    display: block;
 }
 
 .black {
