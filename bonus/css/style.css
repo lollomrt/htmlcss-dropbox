@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -132,14 +136,30 @@ footer {
     background-color: #0061ff;
 }
 
-btn-white {
+.btn-blue:hover {
+    color: #fff;
+    background-color: #3d86fa;
+}
+
+.btn-white {
     background-color: #fff;
     color: #000;
+}
+
+.btn-white:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 .btn-border {
     color: #000;
     background-color: transparent;
+    border: 1px solid #000;
+}
+
+.btn-border:hover {
+    color: #fff;
+    background-color: #000;
     border: 1px solid #000;
 }
 
@@ -149,10 +169,10 @@ btn-white {
     border: 1px solid #fff;
 }
 
-.btn-border:hover {
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #000;
+.btn-border-white:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
 }
 
 .text-center{
@@ -284,7 +304,7 @@ header li {
     top: 100%;
     left: 0;
     background-color: #f5f5f5;
-    width: 10vw;
+    width: 15vw;
     padding: 20px;
     display: none;
 }
@@ -310,7 +330,22 @@ header li {
 
 .hover:hover .dropdown {
     display: block;
+}
+
+a:hover {
     cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a i {
+    color: #000;
+}
+
+a i:hover {
+    color: #0061ff;
 }
 
 /* Main */
@@ -489,10 +524,28 @@ label {
     width: 100%;
 }
 
-.faq {
+.question {
     display: flex;
     justify-content: space-between;
     padding: 30px 30px 30px 0;
+}
+
+.answer {
+    display: none;
+    padding: 0px 30px 30px;
+    transition: display 2s;
+}
+
+.faq:hover .answer {
+    display: block;
+}
+
+.faq i {
+    transition: rotate 0.5s;
+}
+
+.faq:hover i {
+    rotate: 180deg;
 }
 
 .contenuto-navigazione {
